@@ -27,7 +27,7 @@ function App() {
             <PrecisionFlow />
             <div className="w-full h-2 bg-[#A69D89] my-8 rounded-full opacity-30" />
             <HomeVideoSection />
-            <PersonalizationEngine />
+     
             <ExpressionOfInterest />
             <Differentiation />
             <Footer />

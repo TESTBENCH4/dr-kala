@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExpressionOfInterest = () => {
   return (
-    <section className="bg-[#FDFDFD] py-16 md:py-24 px-6 md:px-16 border-t border-slate-100">
+    <section id="eoi-section" className="bg-[#FDFDFD] py-16 md:py-24 px-6 md:px-16 border-t border-slate-100">
       <div className="max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
         
         {/* Left Side: Content */}
