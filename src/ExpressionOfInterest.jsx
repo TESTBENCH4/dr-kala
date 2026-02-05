@@ -85,7 +85,7 @@ const ExpressionOfInterest = () => {
               </button>
             </div>
             
-            <div className="flex flex-col md:flex-row items-center justify-center gap-2 text-[9px] text-slate-300 uppercase tracking-widest font-medium">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-2 text-[9px] text-[#1A1A1A] uppercase tracking-widest font-medium">
               <span>Privacy Encrypted</span>
               <span className="hidden md:inline">•</span>
               <span>Secure Submission</span>

@@ -129,7 +129,7 @@ const RegenerativeHero = () => {
           {/* Subtext beneath image */}
           <div className="mt-8 flex justify-between items-center text-[9px] font-black uppercase tracking-[0.4em] text-slate-300">
             <span className="flex items-center gap-3">
-              <div className="w-1.5 h-1.5 bg-[#A69D89] rounded-full" />
+              <div className="w-1.5 h-1.5 bg-[#1A1A1A] rounded-full" />
               Fig 01. Biological Mapping
             </span>
             <div className="hidden sm:block flex-grow mx-10 h-[1px] bg-slate-100" />
@@ -149,7 +149,7 @@ const RegenerativeHero = () => {
             <span>Security</span>
           </div>
         </div>
-        <div className="text-[9px] font-black uppercase tracking-[0.5em] text-slate-200">© 2026 iMedi.Health</div>
+        <div className="text-[9px] font-black uppercase tracking-[0.5em] text-[#1A1A1A]">© 2026 iMedi.Health</div>
       </footer>
 
       <style jsx>{`

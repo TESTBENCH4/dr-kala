@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -23,8 +24,8 @@ const Navbar = () => {
       <div className="h-16 lg:h-20 flex items-center px-4 sm:px-6">
         <div className="max-w-[1800px] w-full mx-auto flex items-center justify-center lg:justify-start">
 
-          {/* Logo */}
-          <div className="relative cursor-pointer group flex items-center">
+          {/* Logo (redirects to home) */}
+          <Link to="/" className="relative cursor-pointer group flex items-center">
             <img
               src="/Untitled-1 (3).png"
               alt="iMedi Logo"
@@ -39,7 +40,7 @@ const Navbar = () => {
 
             {/* Underline hover (desktop only) */}
             <div className="hidden lg:block absolute -bottom-1 left-0 w-0 h-[1px] bg-black/30 transition-all duration-500 group-hover:w-full" />
-          </div>
+          </Link>
 
         </div>
       </div>

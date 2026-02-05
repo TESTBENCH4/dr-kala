@@ -59,7 +59,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-12 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-[9px] font-bold uppercase tracking-[0.3em] text-slate-400">
+          <div className="text-[9px] font-bold uppercase tracking-[0.3em] text-[#1A1A1A]">
             © 2026 iMedi.health — Integrated Health Ecosystem
           </div>
           <div className="flex gap-8 text-[9px] font-bold uppercase tracking-[0.2em] text-slate-400">
